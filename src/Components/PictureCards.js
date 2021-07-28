@@ -41,7 +41,7 @@ const PictureCards = () => {
         <PictureCardContainer>
             {IMAGES.map(image => (
                 <PictureCard>
-                    <a href="#">
+                    <a href="http://www.google.com" target="_blank">
                         <Picture src={image} alt="pic" key={image}/>
                     </a>
                 </PictureCard>
