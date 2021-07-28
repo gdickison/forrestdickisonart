@@ -23,11 +23,12 @@ const IMAGES = [
 
 const PictureCardContainer = styled.div`
     columns: 3 200px;
-    column-gap: 0;
+    column-gap: 2px;
 `;
 
 const PictureCard = styled.div`
     padding: 2px;
+    display: inline-block;
 `;
 
 const Picture = styled.img`
