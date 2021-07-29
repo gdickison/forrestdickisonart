@@ -29,6 +29,11 @@ const PictureCardContainer = styled.div`
 const PictureCard = styled.div`
     padding: 2px;
     display: inline-block;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: .2s;
+    }
 `;
 
 const Picture = styled.img`
